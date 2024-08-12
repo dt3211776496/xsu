@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent, CardActions, Typography, Box } from '@mui/material';
 
 const BASE_REST_URL =
-    process.env.REACT_APP_BASE_REST_URL ?? 'http://localhost:5555/v1';
+    process.env.REACT_APP_BASE_REST_URL ?? 'http://xsu.iyips.cn:5555/v1';
 
 const HomePage = () => {
     const [canvases, setCanvases] = useState([]);
