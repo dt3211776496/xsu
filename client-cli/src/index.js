@@ -4,8 +4,8 @@ import shortid from 'shortid';
 import { GameClient } from './gameClient.js';
 import { getRandomNumber, getAllValidCanvases } from './utils.js';
 
-const SERVER_ADDRESS = process.env.URL ?? 'ws://localhost:9999';
-const REST_ADDRESS = process.env.REST_ADDRESS ?? 'http://localhost:5555/v1';
+const SERVER_ADDRESS = process.env.URL ?? 'ws://xsu.iyips.cn:9999';
+const REST_ADDRESS = process.env.REST_ADDRESS ?? 'http://xsu.iyips.cn:5555/v1';
 const CLIENTS_COUNT = process.env.CLIENTS_COUNT ?? 5;
 
 const activePlayers = [];
