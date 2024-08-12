@@ -1,5 +1,5 @@
 const BASE_REST_URL =
-    process.env.REACT_APP_BASE_REST_URL ?? 'http://localhost:5555/v1';
+    process.env.REACT_APP_BASE_REST_URL ?? 'http://xsu.iyips.cn:5555/v1';
 
 export const getTotals = (callback) => {
     fetch(`${BASE_REST_URL}/stats/totals`)
